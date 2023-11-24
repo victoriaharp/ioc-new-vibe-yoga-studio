@@ -23,8 +23,8 @@ module.exports = {
       '9xl': ['8rem', '1'],
     },
     fontFamily: {
-      'sans': ['Roboto', 'sans-serif'],
-      'serif': ['proxima-nova-condensed', 'ui-sans-serif'],
+      'sans': ['Roboto Condensed', 'sans-serif'],
+      'serif': ['Crimson Pro', 'serif'],
       'oranienbaum': ['Oranienbaum', 'serif'],
       'poppins': ['Poppins', 'sans-serif'],
     },
@@ -82,23 +82,21 @@ module.exports = {
       },
       
       colors: {
-        'orange': {  
-          DEFAULT: '#C97324',  
-          50: '#F1D1B3',  
-          100: '#EEC6A2',
-          200: '#E8B17F',
-          300: '#E29C5D',
-          400: '#DC873A',
-          500: '#C97324',
-          600: '#99581B',
-          700: '#6A3D13',
-          800: '#3A210A',
-          900: '#0B0602',
-          950: '#000000'},
-        'beige': '#FBF2E9',
+        'moonstone': {
+          DEFAULT: '#58A4B0',
+          50: '#D5E8EB',
+          100: '#C7E0E4',
+          200: '#ABD1D7',
+          300: '#8FC2CA',
+          400: '#74B3BD',
+          500: '#58A4B0',
+          600: '#43838D',
+          700: '#316067',
+          800: '#1F3C41',
+          900: '#0D191B',
+          950: '#040708'
+        },
       },
     },
   },
-  plugins: [
-  ],
 }

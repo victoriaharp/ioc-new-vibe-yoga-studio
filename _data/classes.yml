@@ -1,12 +1,12 @@
-  - name: Bikram Hot Yoga
+  - name: Kickboxing
     description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, reprehenderit provident!
-    image: /images/yoga7.jpg
-  - name: Mandala Yoga
+    image: /images/studio-10.jpg
+  - name: Vinyasa Flow
     description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, reprehenderit provident!
-    image: /images/yoga3.jpg
-  - name: Chakra Flow
+    image: /images/studio-9.jpg
+  - name: REV Cycling
     description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, reprehenderit provident!
-    image: /images/yoga8.jpg
-  - name: Vinyasa Yoga
+    image: /images/studio-13.jpg
+  - name: Weight Lifting
     description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, reprehenderit provident!
-    image: /images/yoga9.jpg
+    image: /images/studio-11.jpg

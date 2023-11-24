@@ -14,19 +14,21 @@ html {
 }
 /* to override the momence purple color, we have to override their color variable here */
 :root{
-  --momence-primary-050: theme(colors.orange.50);
-  --momence-primary-900: theme(colors.orange.900);
-  --momence-primary-800: theme(colors.orange.800);
-  --momence-primary-700: theme(colors.orange.700);
-  --momence-primary-600: theme(colors.orange.600);
-  --momence-primary-500: theme(colors.orange.500);
-  --momence-primary-400: theme(colors.orange.400);
-  --momence-primary-300: theme(colors.orange.300);
-  --momence-primary-200: theme(colors.orange.200);
-  --momence-primary-100: theme(colors.orange.100);
+  --momence-primary-050: theme(colors.moonstone.50);
+  --momence-primary-900: theme(colors.moonstone.900);
+  --momence-primary-800: theme(colors.moonstone.800);
+  --momence-primary-700: theme(colors.moonstone.700);
+  --momence-primary-600: theme(colors.moonstone.600);
+  --momence-primary-500: theme(colors.moonstone.500);
+  --momence-primary-400: theme(colors.moonstone.400);
+  --momence-primary-300: theme(colors.moonstone.300);
+  --momence-primary-200: theme(colors.moonstone.200);
+  --momence-primary-100: theme(colors.moonstone.100);
   --momence-background: transparent;
   --momence-white: transparent;
 }
+
+
 h1, h2, h3, h4, h5 {
   line-height: 1;
   font-weight: 800;
@@ -59,14 +61,18 @@ img{
 
 /* remove corners */
 #momence-embed #momence-plugin-host-schedule * {
-  @apply rounded-none font-poppins border-orange text-orange;
+  @apply rounded-none font-sans border-moonstone text-moonstone;
 }
 /* changing the class title font */
 #momence-embed #momence-plugin-host-schedule h4 {
-  @apply font-oranienbaum;
+  @apply font-serif;
 }
 /* hiding images */
 #momence-embed #momence-plugin-host-schedule .momence-host_schedule-session_list-item-image.jQbyba{
+  display: none;
+}
+
+#momence-embed #momence-plugin-host-schedule .kZbVww.momence-host_schedule-session_list-item-image{
   display: none;
 }
 /* border between each description and price */
@@ -106,10 +112,10 @@ img{
   display: none;
 }
 #momence-embed #momence-plugin-host-schedule .henUQy.momence-event_type_select-button{
-  @apply font-oranienbaum text-4xl pb-5;
+  @apply font-serif text-4xl pb-5;
 }
 /* #momence-embed #momence-plugin-host-schedule .cJpMNz{
-  @apply bg-orange;
+  @apply bg-moonstone;
 } */
 
 /* #momence-embed #momence-plugin-host-schedule .dImvNj{
@@ -160,7 +166,7 @@ img{
   transition: 2s;
 }
 .burger-button.active span{
-  @apply bg-orange border-orange
+  @apply bg-moonstone border-moonstone
 }
 
 .burger-top, .burger-bottom{
@@ -196,7 +202,7 @@ img{
 }
 
 .burger-menu {
-    @apply bg-beige;
+    @apply bg-moonstone-50;
     display: flex;
     position: fixed;
     top: 0vh;
@@ -216,7 +222,7 @@ img{
   right:0;
 }
 .burger-menu a {
-  @apply text-orange;
+  @apply text-moonstone;
   text-decoration: none;
   font-size: 20px;
   display:block;
