@@ -42,7 +42,7 @@ width: calc(10vw + 10.2rem);
 input, label, textarea{
   @apply w-full block;
 }
-form input{
+form input, form textarea{
   @apply py-2 px-0 text-sm bg-transparent focus:outline-none focus:ring-0; 
 }
 /* tailwind outline-none makes it transparent so it still appears in the duration */
