@@ -11,15 +11,22 @@ banner-subheading:
 
 <section class=" bg-beige min-h-screen flex items-center">
     <div class=" mx-auto w-[60%]">
-        <form action="#" method="post" id="contactForm" class="">
+        <form action="#" method="post" id="contactForm" class="contact">
 
-            <input type="text" id="name" name="name" placeholder="NAME" required class="w-full bg-beige  border-b border-moonstone text-moonstone placeholder:text-moonstone mb-10">
-                <br>
+            <div class="relative mb-10 w-full">
+                <input type="text" id="name" name="name" class="peer text-moonstone">
+                <label for="name" type="text" id="name" class="absolute top-0 peer-focus:-translate-y-6 peer-focus:font-medium translate-y-0 duration-100 text-moonstone">Name</label>
+            </div>
 
-            <input type="email" id="email" name="email" placeholder="EMAIL" required class="w-full bg-beige border-b border-moonstone text-moonstone placeholder:text-moonstone mb-10" >
+            <div class="relative mb-10 w-full">
+                <input type="email" id="email" name="email" class="peer text-moonstone">
+                <label for="email" type="text" id="email" class="absolute top-0 peer-focus:-translate-y-6 peer-focus:font-medium translate-y-0 duration-100 text-moonstone">Email</label>
+            </div>
     
-            <label for="message" class="uppercase block text-moonstone">Message:</label>
-            <textarea id="message" name="message" rows="4" required class="w-full block bg-beige border border-moonstone text-moonstone"></textarea>
+            <div class="mb-10 w-full">
+                <label for="message" class="mb-3 w-full peer text-moonstone border-b-0">Message:</label>
+                <textarea id="message" name="message" rows="4" class=" w-full block border border-moonstone text-moonstone focus:outline-none focus:none px-1 peer-focus:font-medium peer-focus:-translate-y-6 translate-y-0 duration-100 border-b-0"></textarea>
+            </div>
             
             <div class="text-right">
                 <button type="submit" class="text-white bg-moonstone border-moonstone hover:text-moonstone hover:bg-white hover:border-moonstone transition border px-10 py-1 mt-5 uppercase">Send</button>

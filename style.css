@@ -38,9 +38,27 @@ h1, h2, h3, h4, h5 {
 hr{
 width: calc(10vw + 10.2rem);
 }
-
+/* form */
+input, label, textarea{
+  @apply w-full block;
+}
+form input{
+  @apply py-2 px-0 text-sm bg-transparent focus:outline-none focus:ring-0; 
+}
+/* tailwind outline-none makes it transparent so it still appears in the duration */
+form imput:focus{
+  outline: none;
+}
+/* apply borders to the bottom of each div */
+form > div{
+  @apply border-b border-moonstone-500;
+}
+/* except the last child button */
+form > div:last-child{
+  @apply border-none;
+}
 input, textarea{
-  margin-bottom: 1rem;
+  @apply bg-transparent;
 }
 
 p{
